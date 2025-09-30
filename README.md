@@ -63,10 +63,17 @@ Import the dashboards from the dashboards/ folder (JSON files).
 ## Deliverables:
 
 Synthetic dataset of simulated telemetry.
+
 ETL pipeline for cleaning and processing.
+
 Grafana dashboards (JSON configs in dashboards/):
+
 Design Intent Deviation
+
 Trust Gap (rejections, fallbacks, low-confidence)
+
 Adoption Heatmap
+
 Error & Latency Trends
+
 Insights report with key findings.
