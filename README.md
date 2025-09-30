@@ -35,8 +35,6 @@ silimate-insights/
 ├── dashboards/ # Streamlit/Grafana configs
 
 ├── reports/ # analysis reports
-│
-├── project_goals.md # full project plan
 
 ├── coding_standards.md # checklist for clean Python code
 
