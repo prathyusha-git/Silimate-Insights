@@ -26,14 +26,21 @@ This project is not about chip design itself — it’s about the **analytics la
 silimate-insights/
 │
 ├── data/ # raw and processed datasets
+
 ├── notebooks/ # Jupyter notebooks for exploration
+
 ├── src/ # Python scripts for data generation and ETL
+
 ├── dashboards/ # Streamlit/Grafana configs
+
 ├── reports/ # analysis reports
 │
 ├── project_goals.md # full project plan
+
 ├── coding_standards.md # checklist for clean Python code
+
 ├── README.md # this file
+
 └── requirements.txt # Python dependencies
 
 ---
