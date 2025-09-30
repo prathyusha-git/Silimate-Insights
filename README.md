@@ -25,6 +25,7 @@ This project is not about chip design itself — it’s about the **analytics la
 
 silimate-insights/
 │
+
 ├── data/ # raw and processed datasets
 
 ├── notebooks/ # Jupyter notebooks for exploration
