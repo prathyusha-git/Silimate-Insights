@@ -6,7 +6,7 @@
 [![Coverage](https://img.shields.io/badge/Coverage-94%25-brightgreen.svg)](https://github.com)
 
 ## 🎯 Project Alignment with Silimate's Mission
-
+Disclaimer: This project is an independent, speculative QA framework inspired by Silimate’s job description; it does not use proprietary data or name any real customers, and also the data is synthetic 
 This QA framework directly addresses Silimate's goal of reducing chip design cycles from 12-18 months to <6 months by ensuring:
 - **Correct RTL generation** from the first attempt
 - **PPA optimization validation** at every step
@@ -308,7 +308,7 @@ pytest tests/ -v --cov=specvalidator --cov-report=html
 
 ## 📈 Impact Metrics (From Telemetry Analysis)
 
-Based on analyzing the provided telemetry data:
+Based on analyzing the synthetic telemetry data:
 ```python
 insights = {
     'quality_improvements': {
