@@ -1,0 +1,58 @@
+# ===== Core Testing Framework =====
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-html>=3.2.0
+pytest-xdist>=3.3.0  # For parallel test execution
+pytest-timeout>=2.1.0  # For handling hanging simulations
+
+# ===== Data Analysis & Metrics =====
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0  # For statistical analysis of PPA metrics
+
+# ===== EDA Tool Integration =====
+pyuvm>=2.9.0  # Python testbench for SystemVerilog
+cocotb>=1.8.0  # Coroutine-based cosimulation testbench
+hdlparse>=1.1.0  # Parse Verilog/VHDL for coverage analysis
+
+# ===== Telemetry & Analytics =====
+sqlalchemy>=2.0.0  # For telemetry database
+psycopg2-binary>=2.9.0  # PostgreSQL adapter if needed
+pymongo>=4.4.0  # MongoDB for unstructured telemetry data
+
+# ===== Visualization & Reporting =====
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0  # Interactive coverage dashboards
+dash>=2.11.0  # Web-based test dashboards
+
+# ===== Code Quality & Coverage =====
+coverage>=7.2.0
+radon>=6.0.0  # Code complexity metrics
+flake8>=6.0.0
+black>=23.3.0
+
+# ===== CI/CD Integration =====
+python-jenkins>=1.8.0
+gitpython>=3.1.0
+pyyaml>=6.0.0
+
+# ===== Utilities =====
+python-dateutil>=2.8.2
+faker>=18.0.0  # Generate synthetic test data
+tqdm>=4.65.0  # Progress bars for long-running tests
+colorama>=0.4.6  # Colored terminal output
+tabulate>=0.9.0  # Formatted test reports
+
+# ===== API & Web Framework (for test dashboard) =====
+fastapi>=0.100.0
+uvicorn>=0.23.0
+requests>=2.31.0
+
+# ===== Documentation =====
+mkdocs>=1.5.0
+mkdocs-material>=9.1.0
+
+# ===== Optional: Jupyter for analysis =====
+jupyter>=1.0.0
+ipywidgets>=8.0.0
