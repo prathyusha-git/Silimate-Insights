@@ -1,0 +1,36 @@
+--- rtl_before.sv
++++ rtl_after.sv
+@@ -1,4 +1,4 @@
+-module design_small_fsm_45(input logic clk, rst_n, in, output logic out);
++module rewrite_small_fsm_45(input logic clk, rst_n, in, output logic out);
+   typedef enum logic [1:0] {S0, S1, S2, S3} state_t;
+   state_t s, ns;
+ 
+@@ -11,10 +11,23 @@
+     ns = s;
+     out = 1'b0;
+     unique case (s)
+-      S0: ns = in ? S1 : S0;
+-      S1: ns = in ? S2 : S0;
+-      S2: begin ns = in ? S3 : S0; out = 1'b1; end
+-      S3: ns = in ? S3 : S0;
++      S0: begin
++        if (in) ns = S1;
++        else ns = S0;
++      end
++      S1: begin
++        if (in) ns = S2;
++        else ns = S0;
++      end
++      S2: begin
++        out = 1'b1;
++        if (in) ns = S3;
++        else ns = S0;
++      end
++      default: begin
++        if (in) ns = S3;
++        else ns = S0;
++      end
+     endcase
+   end
+ endmodule

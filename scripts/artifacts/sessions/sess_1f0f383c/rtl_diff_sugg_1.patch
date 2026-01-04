@@ -1,0 +1,8 @@
+--- rtl_before.sv
++++ rtl_after.sv
+@@ -1,3 +1,3 @@
+-module design_mux_38(input logic sel, d0, d1, output logic y);
+-  assign y = sel ? d1 : d0;
++module rewrite_mux_38(input logic sel, d0, d1, output logic y);
++  assign y = (~sel & d0) | (sel & d1);
+ endmodule

@@ -1,0 +1,756 @@
+{
+  "generated_at": "2025-12-29T21:18:43.745222+00:00",
+  "n_sessions": 50,
+  "sessions": [
+    {
+      "session_id": "sess_a7d2f1bf",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_a7d2f1bf.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_a7d2f1bf",
+      "rtl_pair_sig": "246b9af893dead1c23769955473b6418a43aec30c9aa9271eb8e18ce4cad0ecf",
+      "session_sig": "e8e39833a30a723ef208ea3dd5a85a71415636039106e286afdb3c26ea56ca5e",
+      "kind": "small_fsm",
+      "action": "modify",
+      "confidence": 0.69,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_a915470c",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_a915470c.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_a915470c",
+      "rtl_pair_sig": "ac0b02eb8fd0dbd333f43e0d768a0aa98d62b367689b4aae454f26d90dd46d15",
+      "session_sig": "f86e524b45b2c8577c6bf64f20c66225bfafdfd630ec7518b5699fc08384a1d9",
+      "kind": "small_fsm",
+      "action": "modify",
+      "confidence": 0.9,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_8b4c7e37",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_8b4c7e37.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_8b4c7e37",
+      "rtl_pair_sig": "065d4ab9ca5d0056b264507c8b8746a0caf8c64309230888536d21eda761481a",
+      "session_sig": "8b71ec0baddaa8d6b5e08482a277ee9698aadfdf5b75379e57c1998693e0fd0a",
+      "kind": "adder4",
+      "action": "reject",
+      "confidence": 0.7,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_3324ab28",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_3324ab28.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_3324ab28",
+      "rtl_pair_sig": "6fdab0aec0967f514d499b9afc45599dfedd70382a86d5f6cfd8f2f7084c1bb0",
+      "session_sig": "2718457524be031bcd44541766e83f7b0f4a818686e88536e1e121bce7f0ff5b",
+      "kind": "logic_combo_3",
+      "action": "reject",
+      "confidence": 0.49,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_571a6169",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_571a6169.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_571a6169",
+      "rtl_pair_sig": "48221f858d8f13793ae5c4165b9cdb96eed9089a6fe1425aeb83b044c8efc586",
+      "session_sig": "3b85806b00751e926b792929a1008f4717d65afe0fd6e32e3b379721dbdb4204",
+      "kind": "logic_combo_2",
+      "action": "modify",
+      "confidence": 0.73,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_5350c63d",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_5350c63d.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_5350c63d",
+      "rtl_pair_sig": "bc840ed511bd4f8acebd8a5fd2833ec89ee50a63b17e73327ecc8f6729307d52",
+      "session_sig": "b6a81108013e0df6e6f65369afb49ccea8f7aeda1e12d9f29a7b8c1a35a88a8c",
+      "kind": "adder4",
+      "action": "reject",
+      "confidence": 0.59,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_f54761c9",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_f54761c9.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_f54761c9",
+      "rtl_pair_sig": "07f35e78e20676e0f4445f7f0e56ea7ee61b9dd46da98cae5694d8ce962a1c9c",
+      "session_sig": "37cce8bdb662fa6891447aa0fedcd363a00ded53b5d81d74caf1fcf0f6e7b99f",
+      "kind": "logic_combo_3",
+      "action": "accept",
+      "confidence": 0.5,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_2cf92220",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_2cf92220.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_2cf92220",
+      "rtl_pair_sig": "edb2ba29fe54da8a48841a98dc3055f690f77a121d7d30d416321e4e78c57737",
+      "session_sig": "5ee6774cf064d6a7b8192873f6b8a017b21b6d9e3c8eaf74b4f57d5ee1c5b0e3",
+      "kind": "logic_combo_3",
+      "action": "reject",
+      "confidence": 0.49,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_9e506774",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_9e506774.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_9e506774",
+      "rtl_pair_sig": "11df520819c4fd3dced9fb5ecc7c67208fb9bd9a1b935cbe7bba633aea5dcb15",
+      "session_sig": "78d011df508440bb004af5f7a404ce9ff8006ee840bdfd033aeb023cecf7eb91",
+      "kind": "logic_combo_3",
+      "action": "reject",
+      "confidence": 0.55,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_f01ca3b4",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_f01ca3b4.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_f01ca3b4",
+      "rtl_pair_sig": "deb1db30c3571ab155949b2a73500593c4ebdc3224df246dfaf9e587c8bcaac6",
+      "session_sig": "498b68ece2cdc12306e635bdb6df94e3d1e982556aaa3a3b2ccef1751890e3ea",
+      "kind": "small_fsm",
+      "action": "reject",
+      "confidence": 0.45,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_1eba4819",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_1eba4819.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_1eba4819",
+      "rtl_pair_sig": "198c7f868a1a2839ccf01c51cf61129c6653c2321ba59dcec847ade0ecad32b0",
+      "session_sig": "e7fbcce07dd10efb13a0eefca9d40c1715bbf259dd581141bd13d1843b8f3f94",
+      "kind": "logic_combo_2",
+      "action": "modify",
+      "confidence": 0.82,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_bb28d8a7",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_bb28d8a7.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_bb28d8a7",
+      "rtl_pair_sig": "0d9116eb079e88b6f37b75c8a88beb660a6250bd5a803c2ce3511e6fde05efef",
+      "session_sig": "59ee0585da3651c2745c4d0169f059f0f2f96cf7586b916dbf02f89529d7fe28",
+      "kind": "logic_combo_2",
+      "action": "reject",
+      "confidence": 0.62,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": false,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_db1686a8",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_db1686a8.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_db1686a8",
+      "rtl_pair_sig": "1037d639e09c737e5423d4236b190cb7f4e3f6ccba2f4cf1cb65a5e6f0cfa2a2",
+      "session_sig": "ed7bf326f0bde690f2ef7c506b22c93aeb9b765562fb2b016b33d28ae2e14160",
+      "kind": "logic_combo_1",
+      "action": "reject",
+      "confidence": 0.94,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_4614ddb4",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_4614ddb4.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_4614ddb4",
+      "rtl_pair_sig": "6d499206543b4a251a33908b3c15752c6300fb5bef0d757100065aa049f434c8",
+      "session_sig": "9722b084eb5fb8de0083c4a8eba98b629cf397a8fd63ee71547bb118e5fdcc73",
+      "kind": "logic_combo_1",
+      "action": "reject",
+      "confidence": 0.91,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_946195a8",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_946195a8.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_946195a8",
+      "rtl_pair_sig": "3a8ee59a6a590ba0e65e67560e8c57a36d8de12cd791380e136f9713d8790cf7",
+      "session_sig": "fd5036aae29bbb65051abac9ff73531cebd4e970ca52504484bc2af59fc34449",
+      "kind": "adder4",
+      "action": "modify",
+      "confidence": 0.91,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_a0113bbe",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_a0113bbe.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_a0113bbe",
+      "rtl_pair_sig": "6c0290fdb3dc848f61bf39e2a3515c47bd5c78d6b8db34fa24f50e790d994ff5",
+      "session_sig": "cf728f4cb28f9569f1548a27a636c5b4ae21a60f97558828a40afcc00a1e76bc",
+      "kind": "small_fsm",
+      "action": "reject",
+      "confidence": 0.72,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_037a61e4",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_037a61e4.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_037a61e4",
+      "rtl_pair_sig": "12eba3f84f85ee329262eba9e420b69ff618e48bcab702d400312e83bc680bac",
+      "session_sig": "af1fda8df6cc244c615d9e9c0416db3aec8e4a93d89885d2d6e319ce4f26cc91",
+      "kind": "logic_combo_3",
+      "action": "modify",
+      "confidence": 0.83,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_781bc271",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_781bc271.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_781bc271",
+      "rtl_pair_sig": "ef6613358c2caa2a9b99b8ff08a9d2cb71689e1ecadaa93503866fec4d1bd660",
+      "session_sig": "9e23ea5747fb0dc1687591cde1c29304611003af02b7f9dd9a64ff5e05e9cf1a",
+      "kind": "small_fsm",
+      "action": "reject",
+      "confidence": 0.84,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_7873dfd7",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_7873dfd7.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_7873dfd7",
+      "rtl_pair_sig": "cabdff7b10ca98d6eecfe93f586a6deb713ae840826b27be67fd9cb0ce6c757c",
+      "session_sig": "d82d5079f78c4bdf2f96fe443815c92be9e9e9586bc97d392f38e67df4988016",
+      "kind": "logic_combo_2",
+      "action": "accept",
+      "confidence": 0.86,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_3ce3e73d",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_3ce3e73d.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_3ce3e73d",
+      "rtl_pair_sig": "0353863386035011caa0bdff721c87355fcc25a7708ba80b1042ddc68491bf81",
+      "session_sig": "f1e39c402595f1b817f064dd46d7cbec2edbf005d7d2155e67feed6245ec0222",
+      "kind": "small_fsm",
+      "action": "reject",
+      "confidence": 0.57,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_7ef024b5",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_7ef024b5.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_7ef024b5",
+      "rtl_pair_sig": "4ec4f108c08e360640fb47dbcd55a9b4966854ca024b7dd884b170d301449732",
+      "session_sig": "ae25a7bcc14f7536003d3eed125268027a1f3d31263a68e79f8628c4fdada40f",
+      "kind": "small_fsm",
+      "action": "reject",
+      "confidence": 0.59,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_634bc4c5",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_634bc4c5.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_634bc4c5",
+      "rtl_pair_sig": "ed17a300cd829f7cb541e185e255bfdaa4e66f9ce6078f2a3d5ae7b425f4077c",
+      "session_sig": "5d50178e8f140486965d56606b063c32ae56701b5ec457204af321817842b49d",
+      "kind": "adder4",
+      "action": "modify",
+      "confidence": 0.64,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_aee61684",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_aee61684.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_aee61684",
+      "rtl_pair_sig": "f6da00a26732a2f89d342a2f40d2deaf61473fd53d00fa67224281fcbf96ab0a",
+      "session_sig": "dcb0fd9d209459962e4b1325541fe9592a3eac941d854a15e0ed2b01d347ca2f",
+      "kind": "logic_combo_2",
+      "action": "modify",
+      "confidence": 0.61,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_bd20fdeb",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_bd20fdeb.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_bd20fdeb",
+      "rtl_pair_sig": "e885967ed026d9a7c6825b7cf1ee266e9201c262ce5df1c7d0ed0d03dfd5f887",
+      "session_sig": "69a52f0c82e01510781758e903b85be1ebdbff7b2bb25395848b13a1479d3260",
+      "kind": "logic_combo_3",
+      "action": "reject",
+      "confidence": 0.7,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_90b18a80",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_90b18a80.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_90b18a80",
+      "rtl_pair_sig": "49804e5d49553fed12236f57d81c100cb6e2e7d64c8925a5897f019b58207937",
+      "session_sig": "eaf55dce58a1393a9007e1539b69467d8e71c7ae5b53f1023f66d08d52a4369a",
+      "kind": "logic_combo_2",
+      "action": "reject",
+      "confidence": 0.76,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_d82c4262",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_d82c4262.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_d82c4262",
+      "rtl_pair_sig": "ada29e6074e6c64df6c50edc64c8f35c8579c3af0d9d2abfee09505d7f28cfcf",
+      "session_sig": "3b3476584ba4768dbcfd24212492bb5da140f2b6a81a48cdb280c0934bc13660",
+      "kind": "logic_combo_2",
+      "action": "reject",
+      "confidence": 0.77,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_149dbaf7",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_149dbaf7.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_149dbaf7",
+      "rtl_pair_sig": "8250e0f6aa4c92a38d5836cbbe255f928c868f01ff640b9b1eb98e03a0995c59",
+      "session_sig": "5dd38da6c099c491d837efb97267289e9b1cc11b8344d5f8e75c9f19f526ab82",
+      "kind": "logic_combo_2",
+      "action": "modify",
+      "confidence": 0.79,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_90beeeb7",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_90beeeb7.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_90beeeb7",
+      "rtl_pair_sig": "5fc8f257030aa9f02afe3edda0995dc9bf62e2825c8b55d61b44fb9124091914",
+      "session_sig": "c1caf8379d55b6a56c65305984c8a3c7817b558b2a368172c7d9112b310856a1",
+      "kind": "logic_combo_1",
+      "action": "reject",
+      "confidence": 0.67,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_975639d4",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_975639d4.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_975639d4",
+      "rtl_pair_sig": "980ebc6906a502d43c82cc83787dbe4bb36e2352bc05a5bd41e8127a506b3108",
+      "session_sig": "b86e03c74beaf6fbc0b2a866fe6c7f2fecb9e283c008e418c65830c0bce5807c",
+      "kind": "logic_combo_1",
+      "action": "reject",
+      "confidence": 0.79,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_92bf5774",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_92bf5774.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_92bf5774",
+      "rtl_pair_sig": "6eb1cc31aa20d9cb2a53a78600f5cfa2facb12395a6ff11fb33ae77d2fee6e41",
+      "session_sig": "872208e3359aa0e24b64946ada9da618637cd5af4ccfef4d57f98bc783de6122",
+      "kind": "logic_combo_3",
+      "action": "reject",
+      "confidence": 0.92,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_297a1754",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_297a1754.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_297a1754",
+      "rtl_pair_sig": "5d880029960402cac72322994a631a9bfe45dde0b6baa4bc51d0bf5e741534e0",
+      "session_sig": "4063c2433d437ab4320e4c089a41a9fec1333afece5663dccd48d9d49346ef11",
+      "kind": "small_fsm",
+      "action": "modify",
+      "confidence": 0.51,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_59d83b44",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_59d83b44.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_59d83b44",
+      "rtl_pair_sig": "ccffeb3b2c7d087e83f29ebf4c2a24a08b6d942abdb3a989cccd48bc8169f36f",
+      "session_sig": "613195d36b26212dc0268bc25f2b192b9b6f2b264c083fe361f84c255f49aa3c",
+      "kind": "small_fsm",
+      "action": "modify",
+      "confidence": 0.79,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_546c66bd",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_546c66bd.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_546c66bd",
+      "rtl_pair_sig": "0d9283e580c24c80971000db9a85aa6fafb8f2d02414b6257597c2cd0034e10d",
+      "session_sig": "578dbe2c6b3bc1464639c7fc1002bad1dd9a152c08ae04ddb0f34f42911f6e55",
+      "kind": "logic_combo_3",
+      "action": "accept",
+      "confidence": 0.72,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_bd00613d",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_bd00613d.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_bd00613d",
+      "rtl_pair_sig": "6e6d91e29a043c533873d9cd385177de6529d283c8d033822d02e388b7fbb510",
+      "session_sig": "8b44f369f39e354a8af62567f28c3c1448261467f8f9dc8c6dbeb9fb4dd2bd2c",
+      "kind": "mux",
+      "action": "modify",
+      "confidence": 0.8,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_6a7b568c",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_6a7b568c.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_6a7b568c",
+      "rtl_pair_sig": "b0e80cc50933ea1d67e012b200dee72416067710cd855ddb9cc1678042d2fd6a",
+      "session_sig": "6b7cf75e03e3795a8df46526ab112a73c3a1b133a46b53721f0f7b4ca9355d05",
+      "kind": "logic_combo_3",
+      "action": "modify",
+      "confidence": 0.81,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_68d205d7",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_68d205d7.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_68d205d7",
+      "rtl_pair_sig": "00c2dd0538628ee6afb6811021eba0bb9d26f8b7c13e5427a0ecd873ff1decf6",
+      "session_sig": "65f3bd115fddbc14d2534dd827dfc2bd2d0e555609fc192bea4dcba83a4df5ee",
+      "kind": "logic_combo_1",
+      "action": "modify",
+      "confidence": 0.6,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_c6bfb3d6",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_c6bfb3d6.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_c6bfb3d6",
+      "rtl_pair_sig": "5c9e6210021dc62f6170e4b7a3a82df551cd87df4992067f20c941bfe58a8122",
+      "session_sig": "e77e726d397cebb7ec5fcb49dee2c038686ffcdc754a134c1dbc50a3252b9a59",
+      "kind": "logic_combo_3",
+      "action": "reject",
+      "confidence": 0.94,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_e426b4b0",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_e426b4b0.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_e426b4b0",
+      "rtl_pair_sig": "28f9a83c72a567b23fe63d5bef9d1960206b96df4c257fec121b75a431fdebb0",
+      "session_sig": "942a41d15022df68510e4ac394de3690a6dd16888e9b55bf4b3ee9135efc6d22",
+      "kind": "small_fsm",
+      "action": "modify",
+      "confidence": 0.46,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_1f0f383c",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_1f0f383c.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_1f0f383c",
+      "rtl_pair_sig": "39ce9c8293c7b28950e29bb3a375334c48cbe3eb0fd0728fb34946aac89c6367",
+      "session_sig": "faca64b1240ccf9c9770c495e8a4324544e8ad1100e8008ee96f00035aa86e61",
+      "kind": "mux",
+      "action": "modify",
+      "confidence": 0.87,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_8251c2ed",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_8251c2ed.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_8251c2ed",
+      "rtl_pair_sig": "62d22f05aa7998c8e294bf0610a1d2f84a56bacdfa6433a9ec463eca1dad50ba",
+      "session_sig": "f1f24cb3814cdf6fc46f4915e029926590dbfb3ba544e12130202a50bb62ca6f",
+      "kind": "small_fsm",
+      "action": "modify",
+      "confidence": 0.7,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_db487a68",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_db487a68.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_db487a68",
+      "rtl_pair_sig": "2e77a1f7cc0d3a8a998c03064241ac91a7c44a5c3fd36149b97bc663edc3cdfb",
+      "session_sig": "82ad1459aaa724a0b7c21d99258820fdb5417ada5e3d2da43ac65cc776c92f13",
+      "kind": "logic_combo_1",
+      "action": "modify",
+      "confidence": 0.57,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_3f07fe11",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_3f07fe11.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_3f07fe11",
+      "rtl_pair_sig": "e517f629c32cb216ada37d1037e2f41b392851b3712dea5467a1ccdd101baee5",
+      "session_sig": "490cf9397541d9ad8cd38f32c3cb4ca10ae46821cdcfffc819cde34d99a5d475",
+      "kind": "mux",
+      "action": "reject",
+      "confidence": 0.88,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_19b86c12",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_19b86c12.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_19b86c12",
+      "rtl_pair_sig": "b1cf7556059d6efaa118e0ced48df7400c586db47b1d025ed3136a4764f685a0",
+      "session_sig": "a55927c2c719a0ff4a24a9c3b049e189f19a06d7416c356bdc24359914a7fa24",
+      "kind": "logic_combo_2",
+      "action": "reject",
+      "confidence": 0.48,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_90e0d5d4",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_90e0d5d4.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_90e0d5d4",
+      "rtl_pair_sig": "4fb76eb07b33afaa6ccce52f88f5de22a06bdf76085537603b3c0b9afe723c9f",
+      "session_sig": "95b982ef5b4958f8519eb47786ddac51ae67fc5b823b8b415694b1d3e07c45ac",
+      "kind": "logic_combo_2",
+      "action": "reject",
+      "confidence": 0.89,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_077a73d3",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_077a73d3.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_077a73d3",
+      "rtl_pair_sig": "1a485efbe03ba0e9f36ceebf1edd250dbacf36aad9639b0d99a569699e046ffe",
+      "session_sig": "d3c0c0dd80972f810ed212823ecdd28262d990e5d49620a9ff7a3aed36dc1861",
+      "kind": "logic_combo_3",
+      "action": "modify",
+      "confidence": 0.59,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_f4081b56",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_f4081b56.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_f4081b56",
+      "rtl_pair_sig": "a5455d8f1cd0a490b5ea1ae187534da7b85615faa2a649352ace675bc8960c6f",
+      "session_sig": "ef7ecc116485ec1a0acc4ceb358cd32f74196ce56af65548166731cea68e35c0",
+      "kind": "small_fsm",
+      "action": "reject",
+      "confidence": 0.73,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_817e0754",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_817e0754.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_817e0754",
+      "rtl_pair_sig": "7592da3f1e800e0801dd80e13199598ae475faf7cf4ab33434a6d128bc39976a",
+      "session_sig": "2145631f2b84224d7097e8a0d4435b82edf749e4564949b2447723602ed43b10",
+      "kind": "mux",
+      "action": "accept",
+      "confidence": 0.85,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_3a2bdbaa",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_3a2bdbaa.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_3a2bdbaa",
+      "rtl_pair_sig": "5dfefa4af27134474ad4699ac1e966f623f0d946a94153cecb6c91ac0079818c",
+      "session_sig": "7c6e9d44e929f9274149d7ac45bc7aea199333390d3bf5e88adb40aa6d406859",
+      "kind": "logic_combo_1",
+      "action": "reject",
+      "confidence": 0.71,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    },
+    {
+      "session_id": "sess_a2594e06",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_a2594e06.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_a2594e06",
+      "rtl_pair_sig": "7846ede91e700474ae617f8e28443f29c72646a703c1041ceb39109102336028",
+      "session_sig": "f69510e60a46fe617d0847e6d2c0e4235c4e80b5efa597a81d261b50ace5670a",
+      "kind": "mux",
+      "action": "modify",
+      "confidence": 0.49,
+      "ppa_flags": {
+        "power_fail": false,
+        "freq_fail": false,
+        "area_fail": true
+      }
+    },
+    {
+      "session_id": "sess_5dd1f23f",
+      "jsonl": "data\\telemetry\\deep_sessions\\sess_5dd1f23f.jsonl",
+      "artifacts_dir": "artifacts\\sessions\\sess_5dd1f23f",
+      "rtl_pair_sig": "e6782bf43a2016e4bd4f69181d3efdc79d20295d951e243d1f3577cb26e3fc42",
+      "session_sig": "fd00eb74426c6279b104a143b41c7e2bbec1f6e7ad3449c6de0fcaeada0dc004",
+      "kind": "logic_combo_3",
+      "action": "modify",
+      "confidence": 0.64,
+      "ppa_flags": {
+        "power_fail": true,
+        "freq_fail": true,
+        "area_fail": false
+      }
+    }
+  ]
+}
