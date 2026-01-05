@@ -1,4 +1,4 @@
-# 🔧 SpecValidator: Comprehensive QA Framework for Silimate's RTL Copilot
+# SpecValidator: Comprehensive QA Framework for Silimate's RTL Copilot
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org)
 [![SystemVerilog](https://img.shields.io/badge/SystemVerilog-IEEE1800-orange.svg)](https://www.ieee.org)
