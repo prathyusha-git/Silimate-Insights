@@ -1,0 +1,31 @@
+Session QA Analysis Summary
+==================================================
+
+Telemetry folder: data\telemetry\deep_sessions
+Artifacts folder: artifacts\sessions
+Reports folder: reports
+
+Total sessions analyzed: 50
+Total suggestions analyzed: 50
+
+Action Distribution:
+  - accept: 4 (8.0%)
+  - modify: 21 (42.0%)
+  - reject: 25 (50.0%)
+
+Fail Mode Distribution:
+  - FAIL_AREA: 4 (8.0%)
+  - FAIL_FREQ: 10 (20.0%)
+  - FAIL_FREQ_AREA: 5 (10.0%)
+  - FAIL_POWER: 3 (6.0%)
+  - FAIL_POWER_AREA: 1 (2.0%)
+  - FAIL_POWER_FREQ: 13 (26.0%)
+  - FAIL_POWER_FREQ_AREA: 9 (18.0%)
+  - PASS: 5 (10.0%)
+
+Action Alignment:
+  - OK: 50 (100.0%)
+
+RTL Artifact Diagnostics:
+  - Missing rtl_before: 0
+  - Missing rtl_after:  0
