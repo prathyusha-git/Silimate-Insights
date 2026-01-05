@@ -358,4 +358,4 @@ insights = {
 
 **Built with ❤️ for transforming chip design**
 
-Contact: [Your Name] | [your.email@example.com] | Ready to work in Mountain View
+Contact: [Prathyusha] | [prathyusha8@ksu.edu] | Open to collobration| Accepting full time roles
