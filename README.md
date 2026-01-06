@@ -5,7 +5,7 @@
 [![pytest](https://img.shields.io/badge/pytest-7.4+-green.svg)](https://pytest.org)
 [![Coverage](https://img.shields.io/badge/Coverage-94%25-brightgreen.svg)](https://github.com)
 
-## 🎯 Project Alignment with Silimate's Mission
+## Project Alignment with Silimate's Mission
 Disclaimer: This project is an independent, speculative QA framework inspired by Silimate’s job description; it does not use proprietary data or name any real customers, and also the data is synthetic 
 This QA framework directly addresses Silimate's goal of reducing chip design cycles from 12-18 months to <6 months by ensuring:
 - **Correct RTL generation** from the first attempt
@@ -14,21 +14,21 @@ This QA framework directly addresses Silimate's goal of reducing chip design cyc
 
 ---
 
-## 📋 How This Project Addresses Each Job Requirement
+## How This Project Addresses Each Job Requirement
 
-### ✅ 1. Python Proficiency
+###  1. Python Proficiency
 - 3,500+ lines of production-ready Python code
 - Advanced pytest fixtures and parametrization
 - Async/await for parallel test execution
 - Type hints and dataclasses throughout
 
-### ✅ 2. Verilog/SystemVerilog Expertise
+###  2. Verilog/SystemVerilog Expertise
 - RTL parser for automated testbench generation
 - SystemVerilog assertion (SVA) validation
 - Coverage group extraction and analysis
 - Lint checking integration (Verilator)
 
-### ✅ 3. EDA Tool Integration
+###  3. EDA Tool Integration
 ```python
 # Supports all major EDA tools your customers use
 class EDAToolWrapper:
@@ -40,13 +40,13 @@ class EDAToolWrapper:
     }
 ```
 
-### ✅ 4. QA/Testing Methodology
+###  4. QA/Testing Methodology
 - Comprehensive pytest test suite (50+ test cases)
 - Property-based testing with Hypothesis
 - Mutation testing for test quality
 - Regression test automation
 
-### ✅ 5. Test Coverage for Product Features
+###  5. Test Coverage for Product Features
 - **Spec-to-RTL validation**: Tests copilot understands specs correctly
 - **PPA optimization testing**: Validates power/performance/area improvements
 - **Multi-suggestion testing**: Verifies alternative design tradeoffs
@@ -54,7 +54,7 @@ class EDAToolWrapper:
 
 ---
 
-## 🚀 Quick Start (For Interview Demo)
+##  Quick Start (For Interview Demo)
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/silimate-specvalidator
@@ -78,7 +78,7 @@ python -m specvalidator.eda_test --tool vcs --design examples/fifo.v
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 ```
 specvalidator/
 ├── core/
@@ -114,7 +114,7 @@ specvalidator/
 
 ---
 
-## 💡 Key Features Demonstrating Job Skills
+##  Key Features Demonstrating Job Skills
 
 ### 1. RTL Quality Validation (SystemVerilog Knowledge)
 ```python
@@ -239,7 +239,7 @@ class RootCauseAnalyzer:
 
 ---
 
-## 📊 Sample Test Results Dashboard
+##  Sample Test Results Dashboard
 ```python
 # Dashboard showing key metrics for founders
 def generate_executive_dashboard():
@@ -267,7 +267,7 @@ def generate_executive_dashboard():
 
 ---
 
-## 🧪 Comprehensive Test Suite
+##  Comprehensive Test Suite
 ```bash
 # Run all tests with coverage
 pytest tests/ -v --cov=specvalidator --cov-report=html
@@ -296,7 +296,7 @@ pytest tests/ -v --cov=specvalidator --cov-report=html
 
 ---
 
-## 🎓 VLSI Concepts Demonstrated
+##  VLSI Concepts Demonstrated
 
 1. **RTL Design Flow**: Spec → RTL → Simulation → Synthesis
 2. **Coverage Metrics**: Code, functional, assertion, toggle coverage
@@ -306,7 +306,7 @@ pytest tests/ -v --cov=specvalidator --cov-report=html
 
 ---
 
-## 📈 Impact Metrics (From Telemetry Analysis)
+##  Impact Metrics (From Telemetry Analysis)
 
 Based on analyzing the synthetic telemetry data:
 ```python
@@ -326,7 +326,7 @@ insights = {
 
 ---
 
-## 🚦 Live Demo Features
+##  Live Demo Features
 
 1. **Upload a Verilog design** → Get instant quality report
 2. **Run regression suite** → See real-time test execution
@@ -336,7 +336,7 @@ insights = {
 
 ---
 
-## 💬 Questions This Project Answers in Interview
+##  Questions This Project Answers in Interview
 
 - **"Do you know SystemVerilog?"** → Yes, see RTL parser and testbench generator
 - **"How would you test across EDA tools?"** → See eda_integration/ module
@@ -347,7 +347,7 @@ insights = {
 
 ---
 
-## 📝 Next Steps
+##  Next Steps
 
 1. **Week 1**: Integrate with Silimate's actual copilot API
 2. **Week 2**: Deploy to CI/CD pipeline
