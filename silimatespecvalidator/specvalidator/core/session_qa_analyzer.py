@@ -51,6 +51,19 @@ class SuggestionRecord:
 
     root_cause_hypothesis: str
 
+    # LLM-predicted PPA (from suggestion_generated event)
+    pred_power: Optional[float] = None
+    pred_freq: Optional[float] = None
+    pred_area: Optional[float] = None
+
+    # Prediction errors (pred - actual) — measures LLM internal model accuracy
+    pred_error_power: Optional[float] = None
+    pred_error_freq: Optional[float] = None
+    pred_error_area: Optional[float] = None
+
+    # Design context
+    rtl_kind: Optional[str] = None
+
     # Debug fields (optional but SUPER helpful)
     rtl_before_abs: Optional[str] = None
     rtl_after_abs: Optional[str] = None
@@ -272,6 +285,10 @@ def analyze_all_sessions(
         session_id = events[0].get("session_id") or jsonl.stem
         baseline = _get_baseline(events) or {}
 
+        # Extract design context (rtl_kind for per-design-type analysis)
+        ctx_events = [e for e in events if e.get("event_type") == "design_context"]
+        rtl_kind = ctx_events[0].get("rtl_kind") if ctx_events else None
+
         # Support both names: suggestion_generated and suggestion_shown
         sug_events = [e for e in events if e.get("event_type") in ("suggestion_generated", "suggestion_shown")]
         act_events = [e for e in events if e.get("event_type") == "action_taken"]
@@ -323,6 +340,16 @@ def analyze_all_sessions(
             fail_mode = _ppa_fail_mode(tp, tf, ta, ap, af, aa)
             alignment = _action_alignment(fail_mode, action)
 
+            # Extract LLM-predicted PPA (from suggestion_generated)
+            pred_power = _f(s.get("pred_power"))
+            pred_freq = _f(s.get("pred_freq"))
+            pred_area = _f(s.get("pred_area"))
+
+            # Prediction errors: how wrong was the LLM's PPA estimate?
+            pred_error_power = (pred_power - ap) if (pred_power is not None and ap is not None) else None
+            pred_error_freq = (pred_freq - af) if (pred_freq is not None and af is not None) else None
+            pred_error_area = (pred_area - aa) if (pred_area is not None and aa is not None) else None
+
             # SIMPLIFIED RTL PATH HANDLING - Just build the paths directly
             sess_dir = artifacts_folder / session_id
             rtl_before = str(sess_dir / "rtl_before.sv")
@@ -351,7 +378,7 @@ def analyze_all_sessions(
                 suggestion_id=sugg_id,
                 action=action,
                 action_reason=action_reason,
-                confidence=confidence,  # Use the variable, not s.get("confidence")
+                confidence=confidence,
                 latency_ms=s.get("latency_ms"),
                 target_power=tp,
                 target_freq=tf,
@@ -370,7 +397,14 @@ def analyze_all_sessions(
                 rtl_before_ref=rtl_before,
                 rtl_after_ref=rtl_after,
                 diff_ref=diff_ref,
-                root_cause_hypothesis=hypothesis
+                root_cause_hypothesis=hypothesis,
+                pred_power=pred_power,
+                pred_freq=pred_freq,
+                pred_area=pred_area,
+                pred_error_power=pred_error_power,
+                pred_error_freq=pred_error_freq,
+                pred_error_area=pred_error_area,
+                rtl_kind=rtl_kind,
             )
             
             records.append(record)
@@ -392,7 +426,9 @@ def analyze_all_sessions(
             "base_power", "base_freq", "base_area",
             "actual_power", "actual_freq", "actual_area",
             "delta_power", "delta_freq", "delta_area",
-            "fail_mode", "action_alignment",
+            "pred_power", "pred_freq", "pred_area",
+            "pred_error_power", "pred_error_freq", "pred_error_area",
+            "fail_mode", "action_alignment", "rtl_kind",
             "rtl_before_ref", "rtl_after_ref", "diff_ref",
             "root_cause_hypothesis",
             "rtl_before_abs", "rtl_after_abs",
@@ -406,7 +442,9 @@ def analyze_all_sessions(
                 r.base_power, r.base_freq, r.base_area,
                 r.actual_power, r.actual_freq, r.actual_area,
                 r.delta_power, r.delta_freq, r.delta_area,
-                r.fail_mode, r.action_alignment,
+                r.pred_power, r.pred_freq, r.pred_area,
+                r.pred_error_power, r.pred_error_freq, r.pred_error_area,
+                r.fail_mode, r.action_alignment, r.rtl_kind,
                 r.rtl_before_ref, r.rtl_after_ref, r.diff_ref,
                 r.root_cause_hypothesis,
                 r.rtl_before_abs, r.rtl_after_abs,
@@ -429,7 +467,7 @@ def analyze_all_sessions(
         f.write(f"Reports folder: {out_folder}\n\n")
 
         f.write(f"Total sessions analyzed: {len(set(r.session_id for r in records))}\n")
-        f.write(f"Total suggestions analyzed: {len(records)}\n\n")
+        f.write(f"Total suggestions analyzed:{len(records)}\n\n")
 
         # Action distribution
         f.write("Action Distribution:\n")
@@ -465,8 +503,11 @@ def analyze_all_sessions(
         f.write(f"  - Missing rtl_before: {missing_before}\n")
         f.write(f"  - Missing rtl_after:  {missing_after}\n")
 
-    print(f"✅ Written {len(records)} records to: {csv_path}")
-    print(f"✅ Written JSON to: {json_path}")
-    print(f"✅ Written summary to: {summary_path}")
+    print(f"Written {len(records)} records to: {csv_path}")
+    print(f"Written JSON to: {json_path}")
+    print(f"Written summary to: {summary_path}")
+
+    return records
+n summary to: {summary_path}")
 
     return records
